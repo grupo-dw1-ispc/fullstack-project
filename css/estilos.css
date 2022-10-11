@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-body {
+.fondo {
     background: #FC5C7D;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0A769D, #60D5AB);
@@ -25,14 +25,14 @@ body {
     align-items: center;
 }
 
-h2{
+.encabezado-2{
     text-align: center;
     margin: 10px 0;
     font-weight: 800;
     /*color: #1FBABF;*/
 }
 
-p{
+.parrafo{
 
     text-align: center;
     margin: 10px 0;
@@ -125,7 +125,7 @@ input:focus~.barra::before, textarea:focus~.barra::before{
     transition: 0.3s ease all;
     left: 0%;
 }
-button{
+.boton-form{
     background: #60D5AB;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0A769D, #60D5AB);
@@ -143,7 +143,7 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.boton-form:hover{
 
     background: #1FBABF;
 
