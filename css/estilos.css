@@ -12,7 +12,7 @@
 
 .fondo {
     background: #FC5C7D;
-    /* fallback for old browsers */
+    /* para navegadores antiguos*/
     background: -webkit-linear-gradient(to right, #0A769D, #60D5AB);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #0A769D, #60D5AB);
@@ -60,14 +60,6 @@ form .controls{
 
     position: relative;
     margin: 45px;
-}
-
-/*REVISAR*/
-.iniciar{
-
-    margin-right: 1000;
-    float: left;
-
 }
 
 input, textarea{
@@ -127,7 +119,7 @@ input:focus~.barra::before, textarea:focus~.barra::before{
 }
 .boton-form{
     background: #60D5AB;
-    /* fallback for old browsers */
+    /* para navegadores antiguos */
     background: -webkit-linear-gradient(to right, #0A769D, #60D5AB);
     /* Chrome 10-25, Safari 5.1-6 */
     /*background: linear-gradient(to right, #6A82FB, #60D5AB);*/
