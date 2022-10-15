@@ -1,19 +1,19 @@
-# fullstack-project Workflix
+<p align="center">
+ <a href="https://ibb.co/0tpbGxN"><img src="https://i.ibb.co/xHKT7Nv/logo-workflix.png" alt="logo-workflix" border="0" width="320" height="100"></a>
+</p>
 
-#Team
+# Team
 
-<ol>
-  <li>Marcelo Delgado [Scrum Master]</li>
-  <li>ACUÑA, Natalin</li>
-  <li>CALIGIURI, Andrea </li>
-  <li>LORENTI, Valentino</li>
-  <li>LOPEZ, Erick</li>
-  <li>LUCCHESI, Fernando</li>
-  <li>PEÑA, Ignacio Alejandro</li>
-  <li>LEDESMA, Damián</li>
-  <li>IRUSTA, Franco</li>
-  <li>BENITES, Carolina</li>
-</ol>
+- Marcelo Delgado [Scrum Master]
+- ACUÑA, Natalin
+- CALIGIURI, Andrea
+- LORENTI, Valentino
+- LOPEZ, Erick
+- LUCCHESI, Fernando
+- PEÑA, Ignacio Alejandro
+- LEDESMA, Damián
+- IRUSTA, Franco
+- BENITES, Carolina
 
 
 
