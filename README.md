@@ -4,7 +4,7 @@
 
 # Team
 
-- Marcelo Delgado [Scrum Master]
+- DELGADO Marcelo [Scrum Master]
 - ACUÑA, Natalin
 - CALIGIURI, Andrea
 - LORENTI, Valentino
