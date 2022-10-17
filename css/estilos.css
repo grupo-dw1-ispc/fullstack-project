@@ -193,3 +193,8 @@ input:focus~.barra::before, textarea:focus~.barra::before{
   color: #ffffff;
 }
     
+.center-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
