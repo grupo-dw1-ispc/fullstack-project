@@ -195,13 +195,3 @@ input:focus~.barra::before, textarea:focus~.barra::before{
   color: #ffffff;
 }
     
-.center-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-
-.img-center-wwa{
-    display: flex;
-    margin: 2rem 7rem;
-}
