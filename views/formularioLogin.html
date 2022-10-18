@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
-    
-  </head>
+  
+</head>
 <body class="">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
 
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid ms-2 me-2">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="../index.html">
         <img src="imagenes/logo_workflix.png"  alt="WorkFlix" height="40">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,28 +40,38 @@
           
         </ul>
       </div>
-    </div>
   </nav>
   <!--Fin Navbar-->
   <div class="center-form">
     <form action="">
-        <div class="form recuperar">
-          <h2 class="encabezado-2">¿No recuerdas tu contraseña?</h2>
-          <p class="parrafo">¡No te preocupes! Ingresa tu email y te ayudaremos.</p>
+        <div class="form iniciar">
+          <h2 class="encabezado-2">Iniciar Sesión</h2>
   
           <div class="controls">
-            <input type="email" name="correo" id="correo" required />
+            <input type="text" name="usuario" id="usuario" required />
             <span class="barra"></span>
-            <label>Mail</label>
+            <label>Usuario</label>
           </div>
-
-          <button class="boton-form" type="submit">Enviar</button>
- 
+  
+          <div class="controls">
+            <input type="password" name="pass id="pass" required/>
+            <span class="barra"></span>
+            <label>Contraseña</label>
+          </div>
+  
+          <button class="boton-form" type="submit">Iniciar Sesión</button>
+  
+          <p class="parrafo"><a href="recuperarPass.html">Olvidé mi contraseña</a></p>
+          <p class="parrafo">¿Eres nuevo en este sitio?<a href="formularioRegistro.html">Regístrate</a></p>
+         
+         </div>
+         </div>
+         </div>
         </div>
       </form>
     </div>
-
-      <!-- Footer -->
+  
+<!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
   <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
@@ -87,7 +100,9 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <img src="imagenes/logo_workflix.png" alt="workflix" width="40%">
+          <a href="">
+            <img src="imagenes/logo_workflix.png" alt="workflix" width="40%">
+          </a>
           <p>
             WorkFlix es una plataforma donde puede encontrar profesionales de confianza para resolver cualquier inconveniente que tenga en su casa u oficina.
           </p>
@@ -151,8 +166,10 @@
   <!-- Copyright -->
 </footer>
 <!-- Footer -->
-      
-  
-    
+
+
+
+
+
 </body>
 </html>
