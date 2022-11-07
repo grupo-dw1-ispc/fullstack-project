@@ -1,32 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/estilos.css" />
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js">
+  <title>Formulario de contacto</title>
 </head>
-<body class="">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
 
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid ms-2 me-2">
-      <a class="navbar-brand" href="../index.html">
+  <body class="">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid ms-2 me-2">
+      <a class="navbar-brand" href="/index.html">
         <img src="imagenes/logo_workflix.png"  alt="WorkFlix" height="40">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+            <a class="nav-link" aria-current="page" href="quienessomos.html">Quienes Somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="faq.html"> Preguntas Frecuentes </a>
@@ -39,38 +35,47 @@
             <a href="formularioRegistro.html" type="button" class="btn btn-dark mt-1">Registrarse</a>
           
         </ul>
-      </div>
-  </nav>
-  <!--Fin Navbar-->
-  <div class="center-form">
-    <form action="">
-        <div class="form iniciar">
-          <h2 class="encabezado-2">Iniciar Sesión</h2>
-  
-          <div class="controls">
-            <input type="text" name="usuario" id="usuario" required />
-            <span class="barra"></span>
-            <label>Usuario</label>
-          </div>
-  
-          <div class="controls">
-            <input type="password" name="pass id="pass" required/>
-            <span class="barra"></span>
-            <label>Contraseña</label>
-          </div>
-  
-          <button class="boton-form" type="submit">Iniciar Sesión</button>
-  
-          <p class="parrafo"><a href="recuperarPass.html">Olvidé mi contraseña</a></p>
-          <p class="parrafo">¿Eres nuevo en este sitio?<a href="formularioRegistro.html">Regístrate</a></p>
-         
-         </div>
-         </div>
-         </div>
         </div>
-      </form>
+      </div>
+    </nav>
+  <!--Fin Navbar-->
+
+  <div class="center-form">
+  <form action="" method="post">
+    <div class="form">
+      <h2 class="encabezado-2">Formulario de contacto</h2>
+      <h3 class="parrafo">Escríbanos y en breve nos pondremos en contacto</h3>
+    
+      <div class="controls">
+        <label for="nombre">Nombre/s</label>
+        <input type="text" id="nombre" name="nombre" pattern=[A-Z\sa-z]{3,20} required>
+      </div>
+
+      <div class="controls">
+        <label for="apellido">Apellido/s</label>
+        <input type="text" id="apellido" name="apellido" pattern=[A-Z\sa-z]{3,20} required>
+      </div>
+    
+      <div class="controls">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+    
+      <div class="controls">
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto" required pattern=[A-Za-z0-9\s]{8,60}>
+      </div>
+
+      <div class="controls">
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+    
+      <button class="boton-form" type="submit">Enviar</button>
     </div>
-  
+  </form>
+</div>
+
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-light text-muted">
   <!-- Section: Social media -->
@@ -100,7 +105,7 @@
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
-          <a href="">
+          <a href="/index.html">
             <img src="imagenes/logo_workflix.png" alt="workflix" width="40%">
           </a>
           <p>
@@ -116,7 +121,7 @@
             Sobre nosotros
           </h6>
           <p>
-            <a href="#!" class="text-reset"> ¿Quienes somos? </a>
+            <a href="quienessomos.html" class="text-reset"> ¿Quienes somos? </a>
           </p>
           <p>
             <a href="faq.html" class="text-reset"> Preguntas Frecuentes </a>
@@ -173,3 +178,4 @@
 
 </body>
 </html>
+
