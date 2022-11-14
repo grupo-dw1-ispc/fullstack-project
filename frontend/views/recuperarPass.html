@@ -47,12 +47,13 @@
           <p class="parrafo">¡No te preocupes! Ingresa tu email y te ayudaremos.</p>
   
           <div class="controls">
-            <input type="email" name="correo" id="correo" required />
+            <input type="email" name="correo" id="correo"  />
             <span class="barra"></span>
             <label>Mail</label>
+            <div class="no-valido text-danger d-none"></div>
           </div>
 
-          <button class="boton-form" type="submit">Enviar</button>
+          <button class="boton-form" type="button" onclick="return validarFormulario()">Enviar</button>
  
         </div>
       </form>
@@ -155,6 +156,6 @@
 <!-- Footer -->
       
   
-    
+<script src='js/validarRecuperarPass.js'></script>
 </body>
 </html>
