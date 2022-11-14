@@ -89,6 +89,6 @@ CREATE INDEX `fk_cliente_id_idx` ON `workflix`.`contrataciones` (`id_cliente` AS
 CREATE INDEX `fk_profesional_id_idx` ON `workflix`.`contrataciones` (`id_profesional` ASC) VISIBLE;
 
 
-SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
