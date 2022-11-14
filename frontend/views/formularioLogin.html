@@ -51,15 +51,19 @@
             <input type="text" name="usuario" id="usuario" required />
             <span class="barra"></span>
             <label>Usuario</label>
+            <div class="no-valido text-danger d-none">
+            </div>
           </div>
   
           <div class="controls">
-            <input type="password" name="pass id="pass" required/>
+            <input type="password" name="pass" id="pass" required/>
             <span class="barra"></span>
             <label>Contraseña</label>
+            <div class="no-valido text-danger d-none">
+            </div>
           </div>
   
-          <button class="boton-form" type="submit">Iniciar Sesión</button>
+          <button class="boton-form" type="button" onclick="return validarFormulario()">Iniciar Sesión</button>
   
           <p class="parrafo"><a href="recuperarPass.html">Olvidé mi contraseña</a></p>
           <p class="parrafo">¿Eres nuevo en este sitio?<a href="formularioRegistro.html">Regístrate</a></p>
@@ -170,6 +174,6 @@
 
 
 
-
+<script src='js/validarlogin.js'></script>
 </body>
 </html>
